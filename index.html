@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock-Paper-Scissor</title>
+  </head>
+  <body onload="MaxScore()">
+    <header>Rock Paper Scissor</header>
+    <div class="main">
+      <table id="table">
+        <tr>
+          <td id="user">User</td>
+          <td id="cpu">CPU</td>
+        </tr>
+        <tr>
+          <td id="us">0</td>
+          <td id="cs">0</td>
+        </tr>
+      </table>
+      <div class="prompt">Select one among below 3 choices!!!</div>
+      <div class="images">
+        <div>
+          <img src="images/rock.jpeg" alt="Image not available" id="rock" />
+        </div>
+        <div>
+          <img src="images/paper.jpeg" alt="Image not available" id="paper" />
+        </div>
+        <div>
+          <img
+            src="images/scissor.jpeg"
+            alt="Image not available"
+            id="scissor"
+          />
+        </div>
+      </div>
+      <div class="result"></div>
+      <!-- <div class="finalresult"></div> -->
+    <script src="index.js"></script>
+  </body>
+</html>
